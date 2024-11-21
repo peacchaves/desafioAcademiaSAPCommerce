@@ -1,26 +1,21 @@
 package com.example.cursoonline.model;
 
 import lombok.Data;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Data
+@Entity
+@Table(name = "alunos")
 public class Aluno {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
     private String email;
     private LocalDate dataCadastro;
-}
 
-// Curso.java
-package com.example.cursoonline.model;
-
-import lombok.Data;
-import java.time.LocalDate;
-
-@Data
-public class Curso {
-    private Long id;
-    private String nome;
-    private String descricao;
-    private LocalDate dataCriacao;
+    // Getters e Setters gerados pelo Lombok
 }
