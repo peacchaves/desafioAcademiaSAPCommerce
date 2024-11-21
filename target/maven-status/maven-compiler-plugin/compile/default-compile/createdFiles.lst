@@ -1,0 +1,14 @@
+com\example\cursoonline\model\Aluno.class
+com\example\cursoonline\CursoOnlineApplication.class
+com\example\cursoonline\repository\InscricaoRepository.class
+com\example\cursoonline\dto\AlunoDTO.class
+com\example\cursoonline\model\Curso.class
+com\example\cursoonline\dto\CursoDTO.class
+com\example\cursoonline\dto\InscricaoDTO.class
+com\example\cursoonline\repository\CursoRepository.class
+com\example\cursoonline\populator\InscricaoPopulator.class
+com\example\cursoonline\model\Inscricao.class
+com\example\cursoonline\controller\CursoOnlineController.class
+com\example\cursoonline\repository\AlunoRepository.class
+com\example\cursoonline\service\CursoOnlineServiceImpl.class
+com\example\cursoonline\service\CursoOnlineService.class
